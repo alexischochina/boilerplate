@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: $color-noir;
+
+    &.-loading {
+        cursor: progress;
+    }
+}
+
+html {
+    margin-top: 0 !important;
+}
+
+@media #{$mobile} {
+    .nomobile-only {
+        display: none !important;
+    }
+}
+
+@media #{$nomobile} {
+    .mobile-only {
+        display: none !important;
+    }
+}
+
+@media #{$tablet-portrait} {
+    html {
+        margin-top: 0 !important;
+    }
+}

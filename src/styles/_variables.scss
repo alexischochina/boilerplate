@@ -1,0 +1,19 @@
+// COLORS
+$color-red: #970000;
+$color-blue: lightblue;
+$color-noir: #000000;
+
+
+// BREAKPOINTS
+$breakpoint-small-desktop: 1275;
+$breakpoint-tablet: 1024;
+$breakpoint-tablet-portrait: 960;
+$breakpoint-mobile: 767;
+
+$large-desktop: "(min-width:#{$breakpoint-small-desktop + 1}px)";
+$desktop: "(min-width:#{$breakpoint-tablet + 1}px)";
+$small-desktop: "(max-width:#{$breakpoint-small-desktop + 1}px)";
+$tablet: "(max-width:#{$breakpoint-tablet}px)";
+$tablet-portrait: "(max-width:#{$breakpoint-tablet-portrait}px)";
+$mobile: "(max-width:#{$breakpoint-mobile}px)";
+$nomobile: "(min-width:#{$breakpoint-mobile + 1}px)";
