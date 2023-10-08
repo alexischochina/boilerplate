@@ -13,7 +13,7 @@ npm install vite
 npm install
 ```
 
-### Lancer projet
+### Lancer le projet
 
 ```bash
 npm run dev
